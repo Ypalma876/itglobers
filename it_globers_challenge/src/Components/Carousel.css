@@ -1,0 +1,153 @@
+img {
+    height: 100vh;
+    width: 100vw;
+}
+
+.slider_container {
+    width: 100vw;
+    height: 100vh
+}
+
+.slider-info {
+    position: absolute;
+    z-index: auto;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.4);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-info-box {
+    width: 800px;
+}
+
+.slider-info-title--right{
+    padding: 0;
+    line-height: 50px;
+    font-size: 60px;
+    color: #FFF;
+    font-weight: 400;
+    text-align: right;
+}
+
+.slider-info--color {
+    font-size: 94px;
+    color: aqua;
+    font-weight: bold;
+}
+
+.slider-info-txt {
+    font-size: 55px;
+    text-align: center;
+    color: #FFF;
+}
+
+
+.animate__animated.animate__fadeInDown.scrollDown {
+    --animate-duration: 5s;
+}
+
+.scrollDown {
+    position: inherit;
+    bottom: 50px;
+}
+
+
+.txtIconDown--txt {
+    color: #fff;
+    font-size: 16px;
+}
+
+.txtIconDown {
+    color: #FFF;
+    font-size: 40px;
+}
+
+.navBar {
+    top: 2.5em;
+}
+
+.pufi {
+    height: 36px;
+    width: auto;
+    display:block;
+    margin:auto;
+    margin-bottom: 1.5px;
+}
+
+.puff_center {
+    border-left: 1px solid #9cb5d8;
+}
+
+.pufi_container {
+    width: 7em;
+}
+
+.pufi_2 {
+    height: 31px;
+    width: auto;
+    display:block;
+    margin:auto;
+    margin-bottom: 7px;
+}
+
+.backg {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0) 35%, rgba(0,212,255,0) 100%); 
+}
+
+.pufi_p {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.pufi_logo {
+    width: 6em;
+    height: auto;
+}
+
+.mi_cuenta {
+    color: white;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 1.1px;
+}
+
+.mi_compra {
+    height: 14px;
+    margin-left: 5px;
+    width: 80px;
+}
+
+.division {
+    width: 0.5px;
+    height: 13px;
+    background-color: #9cb5d8;
+}
+
+.shop_container {
+    margin-bottom: 6em;
+    margin-left: 45vw;
+    border: 2px solid white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 3px;
+    height: 35px;
+}
+
+.indicadores {
+    margin-left: 18.5vw;
+}
+
+.shopp {
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2.5px;
+}
