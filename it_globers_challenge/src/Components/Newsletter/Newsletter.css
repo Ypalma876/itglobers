@@ -1,0 +1,29 @@
+.newsletter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6em;
+    margin-left: 2vw;
+}
+
+.submit_btn {
+    height: 2rem;
+    border: none;
+    background: none;
+}
+
+.form_input {
+    height: 2rem;
+    border: none;
+    width: 37vw;
+}
+
+.form_items {
+    border: 1px solid black;
+    width: 40vw;
+}
+
+.news {
+    margin: auto;
+    max-width:500px;
+    text-align: center;
+}

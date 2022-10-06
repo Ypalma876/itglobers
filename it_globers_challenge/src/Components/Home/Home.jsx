@@ -3,6 +3,7 @@ import Carousel from '../Carousel/Carousel.jsx';
 import Products from '../Products.js';
 import Gallery from '../Gallery/Gallery.js';
 import './Home.css'
+import Newsletter from '../Newsletter/Newsletter.js';
 
 const Home = () => {
     return ( 
@@ -10,6 +11,7 @@ const Home = () => {
             <Carousel />
             <Products />
             <Gallery />
+            <Newsletter />
         </div>
         
     );
