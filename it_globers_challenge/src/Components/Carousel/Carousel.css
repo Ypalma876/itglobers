@@ -14,7 +14,7 @@ img {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0, 0.4);
+    background-color: rgba(0,0,0, 0.2);
 
     display: flex;
     flex-direction: column;
@@ -24,6 +24,7 @@ img {
 
 .slider-info-box {
     width: 800px;
+    margin-top: 13vh;
 }
 
 .slider-info-title--right{
@@ -35,16 +36,11 @@ img {
     text-align: right;
 }
 
-.slider-info--color {
-    font-size: 94px;
-    color: aqua;
-    font-weight: bold;
-}
-
 .slider-info-txt {
-    font-size: 55px;
+    font-size: 45px;
     text-align: center;
     color: #FFF;
+    font-weight: 500;
 }
 
 
@@ -70,6 +66,9 @@ img {
 
 .navBar {
     top: 2.5em;
+    position: absolute;
+    background: none;
+    z-index: 3;
 }
 
 .pufi {
@@ -97,7 +96,6 @@ img {
 }
 
 .backg {
-    background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0) 35%, rgba(0,212,255,0) 100%); 
 }
 
@@ -106,6 +104,11 @@ img {
     color: white;
     font-weight: 600;
 }
+
+.logo {
+    margin-right: 17vw;
+}
+
 
 .pufi_logo {
     width: 6em;
@@ -132,13 +135,11 @@ img {
 }
 
 .shop_container {
-    margin-bottom: 6em;
     margin-left: 45vw;
     border: 2px solid white;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 3px;
     height: 35px;
+    position:relative;
+    margin-top: 15vh;
 }
 
 .indicadores {
@@ -150,4 +151,7 @@ img {
     color: white;
     font-size: 14px;
     letter-spacing: 2.5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
 }

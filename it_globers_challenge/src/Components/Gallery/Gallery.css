@@ -1,0 +1,30 @@
+.gallery{ 
+    width: 50%;
+    position: relative;
+    margin: 3em auto;
+}
+
+.gallery_img {
+    width: 120%;
+    height: 100%;
+}
+
+.gallery_img:hover {
+    transform: scale(1.35);
+}
+
+.intro {
+    max-width:500px;
+    margin: 5em auto;
+    text-align: center;
+}
+
+.text-ig {
+    font-size:16px;
+    color: rgb(165, 161, 161);
+}
+
+.text-hashtag {
+    font-size: 28px;
+    font-weight: lighter;
+}

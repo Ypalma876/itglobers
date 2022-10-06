@@ -1,9 +1,38 @@
-.image_portfolio {
-    height: 200px;
- width: 200px;
+.portfolio_container {
+    width: 100vw;
+    display: flex;
 }
 
-.container_size {
+.columna1 {
     width: 50vw;
-    height: 80vh;
+    height: 90vh;  
+    background-color: black;  
+}
+
+.columna2 {
+    width: 50vw;
+    height: 90vh;
+}
+
+.images {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.text_container {
+    width: 100%;
+    height: 100%;
+} 
+
+.pufi_img {
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pufi_txt {
+    text-align: center;
 }

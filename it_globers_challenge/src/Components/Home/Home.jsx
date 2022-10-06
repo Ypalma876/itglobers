@@ -1,19 +1,17 @@
 import React from 'react';
+import Carousel from '../Carousel/Carousel.jsx';
+import Products from '../Products.js';
+import Gallery from '../Gallery/Gallery.js';
+import './Home.css'
 
 const Home = () => {
-    return (
-        <div class="container">
-            <div class="row ">
-
-                <div class="col-md-6 container_size">
-                    <img className='image_portfolio' src="./images/umbrella.jpg" alt="PUFI RAIN"/>
-                </div>
-
-                <div class="col-md-6">
-
-                </div>
-            </div>
+    return ( 
+        <div>
+            <Carousel />
+            <Products />
+            <Gallery />
         </div>
+        
     );
 };
 
